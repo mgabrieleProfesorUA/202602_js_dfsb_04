@@ -1,1 +1,6 @@
+### Lista todos los tipos de documentos
 GET http://localhost:3000/v1/api/tipodocumentos
+### Lista todos los departamentos
+GET http://localhost:3000/v1/api/departamentos
+### Busca las provincias, de acuerdo al codigo departamento enviado como parametro
+GET http://localhost:3000/v1/api/provincias?codDepartamento=12
