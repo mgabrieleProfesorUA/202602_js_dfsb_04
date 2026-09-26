@@ -6,3 +6,19 @@ GET http://localhost:3000/v1/api/departamentos
 GET http://localhost:3000/v1/api/provincias?codDepartamento=12
 ### Busca las distritos, de acuerdo al codigo departamento y codigo de provincia enviado como parametro
 GET http://localhost:3000/v1/api/distritos?codDepartamento=12&codProvincia=01
+### Lista a todos los usuarios
+GET http://localhost:3000/v1/api/usuarios
+###
+POST http://localhost:3000/v1/api/usuarios HTTP/1.1
+content-type: application/json
+
+{
+    "codTipoDocumento": "01",
+    "numDocumento": "44444444",
+    "nombres": "Jose",
+    "apePaterno": "Jimenez",
+    "apeMaterno": "Vilchez",
+    "ubigeo": "120702",
+    "correo": "mgabriele@autonoma.edu.pe",
+    "domicilio": "Panamericana Sur S/N"
+}

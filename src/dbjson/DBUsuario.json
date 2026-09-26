@@ -1,13 +1,1 @@
-[
-    {
-        "codigo": "12345",
-        "codTipoDocumento": "01",
-        "numDocumento": "45784578",
-        "nombres": "Miguel",
-        "apePaterno": "Gabriele",
-        "apeMaterno": "Ruesta",
-        "ubigeo": "120702",
-        "correo": "mgabriele@autonoma.edu.pe",
-        "domicilio": "Panamericana Sur S/N"
-    }
-]
+[{"codigo":"12345","codTipoDocumento":"01","numDocumento":"45784578","nombres":"Miguel","apePaterno":"Gabriele","apeMaterno":"Ruesta","ubigeo":"120702","correo":"mgabriele@autonoma.edu.pe","domicilio":"Panamericana Sur S/N"},{"codigo":"7edc283f-85ae-45d3-b2b5-00dbab1813ef","codTipoDocumento":"01","numDocumento":"44444444","nombres":"Jose","apePaterno":"Jimenez","apeMaterno":"Vilchez","ubigeo":"120702","correo":"mgabriele@autonoma.edu.pe","domicilio":"Panamericana Sur S/N"}]

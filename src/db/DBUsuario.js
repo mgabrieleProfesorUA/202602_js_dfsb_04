@@ -9,3 +9,11 @@ export const readData = () =>{
         console.log(error);
     }
 }
+
+export const writeData = (datos) =>{
+    try{
+        fs.writeFileSync('./dbjson/DBUsuario.json', JSON.stringify(datos));
+    }catch (error){
+        console.log(error);
+    }
+}
