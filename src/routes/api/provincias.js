@@ -15,5 +15,4 @@ provincias.get("/", (req, res) => {
     } else {
         res.send('No existe provincias para el departamento seleccionado');
     }
-    //res.json(readData());
 });

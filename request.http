@@ -4,3 +4,5 @@ GET http://localhost:3000/v1/api/tipodocumentos
 GET http://localhost:3000/v1/api/departamentos
 ### Busca las provincias, de acuerdo al codigo departamento enviado como parametro
 GET http://localhost:3000/v1/api/provincias?codDepartamento=12
+### Busca las distritos, de acuerdo al codigo departamento y codigo de provincia enviado como parametro
+GET http://localhost:3000/v1/api/distritos?codDepartamento=12&codProvincia=01
